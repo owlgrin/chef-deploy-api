@@ -1,10 +1,10 @@
 # deploy-api-cookbook
 
-TODO: Enter the cookbook description here.
+Deploys the Horntell API on production servers.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+Ubuntu.
 
 ## Attributes
 
