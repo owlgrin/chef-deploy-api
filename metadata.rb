@@ -1,6 +1,6 @@
 name             'deploy-api'
-maintainer       'YOUR_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Mohit Mamoria'
+maintainer_email 'mohit.mamoria@gmail.com'
 license          'All rights reserved'
 description      'Installs/Configures deploy-api'
 long_description 'Installs/Configures deploy-api'
