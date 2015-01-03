@@ -13,6 +13,7 @@ execute "Making '/home/ubuntu/apps/api' storage writable" do
 	command "sudo chmod -R a+w /home/ubuntu/apps/api/app/storage"
 end
 
+# we are pulling production configs from a different private repo
 git "/home/ubuntu/apps/api/app/config/production" do
 	repository 'gitlab@gitlab.owlgrin.com:horntell/configs.git'
 	revision 'api'
