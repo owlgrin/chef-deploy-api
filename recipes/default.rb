@@ -8,6 +8,7 @@ composer_project '/home/ubuntu/apps/api' do
 	action :update
 end
 
+# making storage folder to allow everyone write
 execute "Making '/home/ubuntu/apps/api' storage writable" do
 	command "sudo chmod -R a+w /home/ubuntu/apps/api/app/storage"
 end
