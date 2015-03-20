@@ -5,7 +5,7 @@ git '/home/ubuntu/apps/api' do
 end
 
 composer_project '/home/ubuntu/apps/api' do
-	action :update
+	action :install
 end
 
 # making storage folder to allow everyone write

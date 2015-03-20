@@ -4,6 +4,6 @@ maintainer_email 'mohit.mamoria@gmail.com'
 license          'All rights reserved'
 description      'Installs/Configures deploy-api'
 long_description 'Installs/Configures deploy-api'
-version          '0.1.8'
+version          '0.1.9'
 
 depends 		 'composer', '~> 1.0.5'
